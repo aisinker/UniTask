@@ -1,3 +1,6 @@
+修改：
+1. 根据这篇[文档](https://github.com/tuyoogame/YooAsset/blob/main/Assets/YooAsset/Samples%7E/UniTask%20Sample/README.md)添加支持[YooAsset](https://github.com/tuyoogame/YooAsset)。
+
 UniTask
 ===
 [![GitHub Actions](https://github.com/Cysharp/UniTask/workflows/Build-Debug/badge.svg)](https://github.com/Cysharp/UniTask/actions) [![Releases](https://img.shields.io/github/release/Cysharp/UniTask.svg)](https://github.com/Cysharp/UniTask/releases) [![Readme_CN](https://img.shields.io/badge/UniTask-%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3-red)](https://github.com/Cysharp/UniTask/blob/master/README_CN.md)
@@ -21,31 +24,33 @@ For advanced tips, see blog post: [Extends UnityWebRequest via async decorator p
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Table of Contents
 
-- [Getting started](#getting-started)
-- [Basics of UniTask and AsyncOperation](#basics-of-unitask-and-asyncoperation)
-- [Cancellation and Exception handling](#cancellation-and-exception-handling)
-- [Timeout handling](#timeout-handling)
-- [Progress](#progress)
-- [PlayerLoop](#playerloop)
-- [async void vs async UniTaskVoid](#async-void-vs-async-unitaskvoid)
-- [UniTaskTracker](#unitasktracker)
-- [External Assets](#external-assets)
-- [AsyncEnumerable and Async LINQ](#asyncenumerable-and-async-linq)
-- [Awaitable Events](#awaitable-events)
-- [Channel](#channel)
-- [For Unit Testing](#for-unit-testing)
-- [ThreadPool limitation](#threadpool-limitation)
-- [IEnumerator.ToUniTask limitation](#ienumeratortounitask-limitation)
-- [For UnityEditor](#for-unityeditor)
-- [Compare with Standard Task API](#compare-with-standard-task-api)
-- [Pooling Configuration](#pooling-configuration)
-- [Allocation on Profiler](#allocation-on-profiler)
-- [UniTaskSynchronizationContext](#unitasksynchronizationcontext)
-- [API References](#api-references)
-- [UPM Package](#upm-package)
-  - [Install via git URL](#install-via-git-url)
-- [.NET Core](#net-core)
-- [License](#license)
+- [UniTask](#unitask)
+  - [Table of Contents](#table-of-contents)
+  - [Getting started](#getting-started)
+  - [Basics of UniTask and AsyncOperation](#basics-of-unitask-and-asyncoperation)
+  - [Cancellation and Exception handling](#cancellation-and-exception-handling)
+  - [Timeout handling](#timeout-handling)
+  - [Progress](#progress)
+  - [PlayerLoop](#playerloop)
+  - [async void vs async UniTaskVoid](#async-void-vs-async-unitaskvoid)
+  - [UniTaskTracker](#unitasktracker)
+  - [External Assets](#external-assets)
+  - [AsyncEnumerable and Async LINQ](#asyncenumerable-and-async-linq)
+  - [Awaitable Events](#awaitable-events)
+  - [Channel](#channel)
+  - [For Unit Testing](#for-unit-testing)
+  - [ThreadPool limitation](#threadpool-limitation)
+  - [IEnumerator.ToUniTask limitation](#ienumeratortounitask-limitation)
+  - [For UnityEditor](#for-unityeditor)
+  - [Compare with Standard Task API](#compare-with-standard-task-api)
+  - [Pooling Configuration](#pooling-configuration)
+  - [Allocation on Profiler](#allocation-on-profiler)
+  - [UniTaskSynchronizationContext](#unitasksynchronizationcontext)
+  - [API References](#api-references)
+  - [UPM Package](#upm-package)
+    - [Install via git URL](#install-via-git-url)
+  - [.NET Core](#net-core)
+  - [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
